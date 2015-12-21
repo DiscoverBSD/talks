@@ -58,6 +58,11 @@ end
 #   end
 # end
 
+# Directories locations
+set :css_dir, "css"
+set :js_dir, "js"
+set :images_dir, "img"
+
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
