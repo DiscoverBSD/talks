@@ -47,9 +47,9 @@ end
 
 page "/feed.xml", layout: false
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+configure :development do
+  activate :livereload
+end
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -57,6 +57,11 @@ page "/feed.xml", layout: false
 #     "Helping"
 #   end
 # end
+
+# Directories locations
+set :css_dir, "css"
+set :js_dir, "js"
+set :images_dir, "img"
 
 # Build-specific configuration
 configure :build do
