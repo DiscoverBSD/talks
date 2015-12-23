@@ -1,0 +1,102 @@
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+a,
+a:visited {
+  border-bottom: 1px dotted;
+  color: $link-color;
+  text-decoration: none;
+}
+
+.not-dotted {
+  border-bottom: 0;
+}
+
+.button {
+  background-color: $background-color;
+  border: solid 1px $grey-color-light;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: 600;
+  height: 2.75rem;
+  line-height: 2.7rem;
+  padding: 0 1.5rem;
+  text-decoration: none;
+  transition: all .35s;
+
+  &:hover {
+    border-color: $red-color;
+  }
+}
+
+.home {
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 2.7rem;
+  text-align: center;
+
+  .header {
+    background-color: $grey-color-light;
+    color: $red-color;
+    padding: 10rem 0 15rem;
+
+    p {
+      font-size: 3rem;
+      font-weight: 300;
+      margin: 0;
+    }
+  }
+
+  .actual {
+    background: $background-color;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    padding: 4rem 0;
+  }
+
+  .talk {
+    background: $grey-color-lighter;
+    border-radius: 6px;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 3rem 0;
+    position: relative;
+    top: -15rem;
+    width: 90%;
+
+    &-title {
+      font-size: 2.25rem;
+      font-variant: normal;
+      letter-spacing: -.035rem;
+      line-height: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    &-subtitle {
+      color: $text-color;
+      font-size: 1.3rem;
+      font-variant: small-caps;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+.footer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+  padding-bottom: 1.3rem;
+  text-align: center;
+
+  p {
+    margin: .2rem auto;
+  }
+
+  &__love {
+    color: $red-color;
+  }
+}
