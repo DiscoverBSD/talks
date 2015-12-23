@@ -92,7 +92,7 @@ linters:
 
   LeadingZero:
     enabled: true
-    style: include_zero # or 'exclude_zero'
+    style: exclude_zero # or 'include_zero'
 
   MergeableSelector:
     enabled: true
@@ -147,7 +147,7 @@ linters:
 
   SelectorDepth:
     enabled: true
-    max_depth: 2
+    max_depth: 3
 
   SelectorFormat:
     enabled: true
