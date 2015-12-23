@@ -12,6 +12,9 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem "middleman", "~> 4.0.0"
 gem "middleman-blog"
 gem 'middleman-livereload', '~> 3.4', '>= 3.4.5'
+# A Middleman extension to integrate Disqus into your site,
+# supporting Disqus configuration variables and comment counts.
+gem 'middleman-disqus', github: 'hovancik/middleman-disqus'
 
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 

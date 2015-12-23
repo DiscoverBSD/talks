@@ -71,3 +71,15 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+configure :development do
+  activate :disqus do |d|
+    d.shortname = nil
+  end
+end
+
+configure :build do
+  activate :disqus do |d|
+    d.shortname = "talksdiscoverbsdcom"
+  end
+end
