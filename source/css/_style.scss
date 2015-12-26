@@ -1,6 +1,7 @@
 body {
   background-color: $background-color;
   color: $text-color;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 a,
@@ -154,6 +155,21 @@ a:visited {
     position: absolute;
     top: 0;
     width: 100%;
+  }
+}
+
+.tagged {
+  margin: 3rem auto;
+  max-width: 90%;
+  width: 900px;
+
+  .pagination {
+    padding: 2rem;
+    text-align: center;
+
+    .pages {
+      padding: 0 2rem;
+    }
   }
 }
 
