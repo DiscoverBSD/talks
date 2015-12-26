@@ -5,31 +5,7 @@
   <id>https://talks.discoverbsd.com/</id>
   <link href="https://talks.discoverbsd.com/"/>
   <link href="https://talks.discoverbsd.com/feed.xml" rel="self"/>
-  <updated>2012-01-01T01:00:00+01:00</updated>
   <author>
     <name>Jan Hovancik and contributors</name>
   </author>
-  <entry>
-    <title>Early days of Unix and design of sh</title>
-    <link rel="alternate" href="https://talks.discoverbsd.com/2012/01/01/example-article.html"/>
-    <id>https://talks.discoverbsd.com/2012/01/01/example-article.html</id>
-    <published>2012-01-01T01:00:00+01:00</published>
-    <updated>2015-12-26T17:20:27+01:00</updated>
-    <author>
-      <name>Jan Hovancik and contributors</name>
-    </author>
-    <content type="html">&lt;h2 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;my history and background&lt;/li&gt;
-  &lt;li&gt;how and why we had to re write the shell&lt;/li&gt;
-  &lt;li&gt;why I wrote my own memory management&lt;/li&gt;
-  &lt;li&gt;key language design decisions&lt;/li&gt;
-  &lt;li&gt;where those ideas came from&lt;/li&gt;
-  &lt;li&gt;what was hard to get right&lt;/li&gt;
-  &lt;li&gt;system changes we made to accommodate sh&lt;/li&gt;
-  &lt;li&gt;what the rules were in UNIX group&lt;/li&gt;
-  &lt;li&gt;what would I do differently today&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
 </feed>
