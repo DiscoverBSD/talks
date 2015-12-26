@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="https://talks.discoverbsd.com/img/talks.jpg"/>
+    <meta name="description" content="DiscoverBSD talks | watch - discuss - learn">
     <%= stylesheet_link_tag "main.css" %>
     <title>DiscoverBSD Talks <%= ' | ' + current_article.title unless current_article.nil? %></title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>

@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  Early days of Unix and design of sh
-date: 2012-01-01
+date: 2016-01-01
 tags: unix, sh
 video: FI_bZhV7wpI
 author: Stephen R. Bourne
 venue: BSDCan 2015
 slides: https://www.bsdcan.org/2015/schedule/attachments/306_srbBSDCan2015.pdf
+published: false
 ---
 
 ##Abstract for talk:
