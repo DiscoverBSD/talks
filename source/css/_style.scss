@@ -5,17 +5,15 @@ body {
 
 a,
 a:visited {
-  border-bottom: 1px dotted;
   color: $link-color;
   text-decoration: none;
 }
 
-.not-dotted {
-  border-bottom: 0;
+.dotted {
+  border-bottom: 1px dotted;
 }
 
 .button {
-  background-color: $background-color;
   border: solid 1px $grey-color-light;
   border-radius: 4px;
   display: inline-block;

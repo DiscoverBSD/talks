@@ -18,7 +18,7 @@
       <% end %>
       <i class="fa fa-tags"></i>
       <% current_page.tags.each do |tag| %>
-        <%= link_to tag, tag_path(tag) %>
+        <%= link_to tag, tag_path(tag), class: "dotted" %>
       <% end %>
     </div>
 
@@ -28,14 +28,14 @@
 
     <div class="navigation">
       <% if current_page.previous_article %>
-        <button href="<%= current_page.previous_article.url %>" class="button navigation-previous">
+        <a href="<%= current_page.previous_article.url %>" class="button navigation-previous">
           <%= current_page.previous_article.data.author %>: <%= current_page.previous_article.title %>
-        </button>
+        </a>
       <% end %>
       <% if current_page.next_article %>
-        <button href="<%= current_page.next_article.url %>" class="button navigation-next">
+        <a href="<%= current_page.next_article.url %>" class="button navigation-next">
           <%= current_page.next_article.data.author %>: <%= current_page.next_article.title %>
-        </button>
+        </a>
       <% end %>
     </div>
     <%= disqus %>
