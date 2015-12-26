@@ -66,12 +66,13 @@ set :images_dir, "img"
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  # activate :minify_css
+   activate :minify_css
 
   # Minify Javascript on build
   # activate :minify_javascript
 end
 
+# Disqus comments
 configure :development do
   activate :disqus do |d|
     d.shortname = nil
@@ -82,4 +83,10 @@ configure :build do
   activate :disqus do |d|
     d.shortname = "talksdiscoverbsdcom"
   end
+end
+
+# Deploy to github
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.build_before = true
 end

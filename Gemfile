@@ -16,6 +16,9 @@ gem 'middleman-livereload', '~> 3.4', '>= 3.4.5'
 # supporting Disqus configuration variables and comment counts.
 gem 'middleman-disqus', github: 'hovancik/middleman-disqus'
 
+# deploy to GH page
+gem 'middleman-deploy', '>= 2.0.0.pre.alpha'
+
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 
 # For feed.xml.builder
