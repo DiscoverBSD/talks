@@ -18,7 +18,7 @@ People can recommend videos via GitHub's [PR](https://help.github.com/articles/u
 Let's say you wanna recommend video called ["Early days of Unix and design of sh"](https://www.youtube.com/watch?v=FI_bZhV7wpI).
 
 * [fork](https://github.com/DiscoverBSD/talks#fork-destination-box) the repo
-* create an file `source/` inside dir named `{year}-{month}-{day}-{title}.html.markdown`, in our case `source/2016-01-01-early-days-of-unix-and-design-of-sh.html.markdown`
+* create an file inside `source/` dir named `{year}-{month}-{day}-{title}.html.markdown`, in our case `source/2016-01-01-early-days-of-unix-and-design-of-sh.html.markdown`
 * feed the file with data
 ```
 ---
