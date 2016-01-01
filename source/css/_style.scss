@@ -141,6 +141,23 @@ a:visited {
     float: right;
     font-size: 2rem;
   }
+
+  .discuss {
+    background-color: $grey-color-light;
+    border-radius: 4px;
+    margin: 2rem auto;
+    padding: 1rem 1rem 2.6rem;
+    text-align: center;
+
+    p,
+    h3 {
+      margin: .1rem;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+    }
+  }
 }
 
 .video {
