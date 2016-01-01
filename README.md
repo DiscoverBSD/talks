@@ -33,7 +33,7 @@ slides: https://www.bsdcan.org/2015/schedule/attachments/306_srbBSDCan2015.pdf
 published: false
 ---
 
-##Abstract for talk:
+###Abstract for talk:
 - my history and background
 - how and why we had to re write the shell
 - why I wrote my own memory management
@@ -49,3 +49,6 @@ Everything except `slides` is mandatory. Choose any date you want, it will be ch
 * push and create pull request
 
 **Design and other PRs are welcome as well.**
+
+###Some things to keep in mind in articles:
+*  use only h3 and smaller (looks better in emails and so)
