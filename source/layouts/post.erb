@@ -7,7 +7,7 @@
     </header>
 
     <div class="video">
-      <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/<%= current_page.data.video %>?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/<%= current_page.data.video %>?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="tags">
@@ -37,6 +37,12 @@
           <%= current_page.next_article.data.author %>: <%= current_page.next_article.title %>
         </a>
       <% end %>
+    </div>
+    <div class="discuss">
+      <p>
+        Do you have anything to add? What did you find the most interesting? Maybe you have questions?
+      </p>
+      <h3>Please, join the discussion below!</h3>
     </div>
     <%= disqus %>
   </article>
