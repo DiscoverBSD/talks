@@ -407,7 +407,8 @@ a:visited {
     position: relative;
     top: -15rem;
     width: 900px; }
-    .home .talk-title {
+    .home .talk-title, .home .talk-title a {
+      color: #333;
       font-size: 2.25rem;
       font-variant: normal;
       letter-spacing: -.035rem;
@@ -429,7 +430,7 @@ a:visited {
   width: 900px; }
   .post .header {
     font-family: 'Open Sans Condensed', sans-serif; }
-    .post .header-title {
+    .post .header-title, .post .header-title a {
       color: #333;
       font-size: 3.25rem;
       font-weight: 700;
@@ -456,6 +457,17 @@ a:visited {
     display: inline-block;
     float: right;
     font-size: 2rem; }
+  .post .discuss {
+    background-color: #e8e8e8;
+    border-radius: 4px;
+    margin: 2rem auto;
+    padding: 1rem 1rem 2.6rem;
+    text-align: center; }
+    .post .discuss p,
+    .post .discuss h3 {
+      margin: .1rem; }
+    .post .discuss h3 {
+      font-size: 1.4rem; }
 
 .video {
   height: 0;
