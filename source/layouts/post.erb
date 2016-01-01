@@ -2,7 +2,7 @@
   <article class="post">
 
     <header class="header">
-      <h1 class="header-title"><%= current_page.data.title %></h1>
+      <h1 class="header-title"><%= link_to current_page.data.title, current_page %></h1>
       <p class="header-meta">presented by <%=current_page.data.author %> at <%=current_page.data.venue %></p>
     </header>
 

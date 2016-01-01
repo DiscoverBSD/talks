@@ -7,7 +7,6 @@ video: FI_bZhV7wpI
 author: Stephen R. Bourne
 venue: BSDCan 2015
 slides: https://www.bsdcan.org/2015/schedule/attachments/306_srbBSDCan2015.pdf
-published: false
 ---
 
 ##Abstract for talk:
