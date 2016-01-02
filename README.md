@@ -1,6 +1,8 @@
 # DiscoverBSD Talks
 this is a source code for https://talks.discoverbsd.com website
 
+ [![Build Status](https://travis-ci.org/DiscoverBSD/talks.svg)](https://travis-ci.org/DiscoverBSD/talks)
+
 ##About
 
 DiscoverBSD Talks is a community based website where people can watch and discuss videos from BSD conferences, and thus learn.
