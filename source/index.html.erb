@@ -8,15 +8,15 @@
   <section class="actual">
     <div class="talk">
       <p class="talk-title">
-        <a href="/2016/01/01/early-days-of-unix-and-design-of-sh.html">Early days of Unix and design of sh</a>
+        <%= link_to page_articles.first.title, page_articles.first %>
       </p>
       <p class="talk-subtitle">
         right now we are discussing
       </p>
       <p>
-        <a href="/2016/01/01/early-days-of-unix-and-design-of-sh.html">
-          <img src="//img.youtube.com/vi/FI_bZhV7wpI/0.jpg" />
-        </a>
+        <% link_to page_articles.first  do %>
+          <%= image_tag "//img.youtube.com/vi/#{page_articles.first.data.video}/0.jpg" %>
+        <% end %>
       </p>
     </div>
   </section>
