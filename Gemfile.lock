@@ -1,9 +1,9 @@
 GIT
-  remote: git://github.com/hovancik/middleman-disqus.git
-  revision: 58e3761f634cb247af539e6c0ffe7f611f08677d
+  remote: git://github.com/simonrice/middleman-disqus.git
+  revision: f4acd10fa711123bc66448f17cb88f7ab391a53e
   specs:
     middleman-disqus (1.1.0)
-      middleman-core (>= 3.3)
+      middleman-core (~> 4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -135,3 +135,6 @@ DEPENDENCIES
   redcarpet (~> 3.3, >= 3.3.3)
   tzinfo-data
   wdm (~> 0.1.0)
+
+BUNDLED WITH
+   1.10.6
