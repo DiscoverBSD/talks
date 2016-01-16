@@ -15,7 +15,11 @@
       </p>
       <p>
         <% link_to page_articles.first  do %>
-          <%= image_tag "//img.youtube.com/vi/#{page_articles.first.data.video}/0.jpg" %>
+          <% if page_articles.first.data.youtube %>
+            <%= image_tag "//img.youtube.com/vi/#{page_articles.first.data.youtube}/0.jpg" %>
+          <% elsif page_articles.first.data.vimeo %>
+            <%= image_tag(JSON.parse(open("http://vimeo.com/api/v2/video/#{page_articles.first.data.vimeo}.json").read).first["thumbnail_large"]) %>
+          <% end %>
         <% end %>
       </p>
     </div>

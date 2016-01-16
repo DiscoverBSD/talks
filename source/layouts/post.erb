@@ -5,9 +5,12 @@
       <h1 class="header-title"><%= link_to current_page.data.title, current_page %></h1>
       <p class="header-meta">presented by <%=current_page.data.author %> at <%=current_page.data.venue %></p>
     </header>
-
     <div class="video">
-      <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/<%= current_page.data.video %>?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
+      <% if current_page.data.youtube %>
+          <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/<%= current_page.data.video %>?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
+      <% elsif current_page.data.vimeo  %>
+          <iframe width="640" height="480" src="https://player.vimeo.com/video/<%= current_page.data.vimeo %>?byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
+      <% end %>
     </div>
 
     <div class="tags">
@@ -38,6 +41,7 @@
         </a>
       <% end %>
     </div>
+    
     <div class="discuss">
       <p>
         Do you have anything to add? What did you find the most interesting? Maybe you have questions?
