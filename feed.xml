@@ -14,7 +14,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/01/early-days-of-unix-and-design-of-sh.html"/>
     <id>https://talks.discoverbsd.com/2016/01/01/early-days-of-unix-and-design-of-sh.html</id>
     <published>2016-01-01T01:00:00+01:00</published>
-    <updated>2016-01-07T11:41:21+01:00</updated>
+    <updated>2016-01-16T20:19:48+01:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -30,6 +30,14 @@
   &lt;li&gt;what the rules were in UNIX group&lt;/li&gt;
   &lt;li&gt;what would I do differently today&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h4 id="about-the-speaker-steve-bourne"&gt;About the Speaker: Steve Bourne&lt;/h4&gt;
+&lt;p&gt;Steve Bourne is computer scientist who is internationally known for his work on the UNIX operating system.&lt;/p&gt;
+
+&lt;p&gt;While at Bell Laboratories, Steve designed the UNIX Command Language known as the "Bourne Shell". It is the standard command line interface to UNIX and is widely used today in scripting in the UNIX programming environment.&lt;/p&gt;
+
+&lt;p&gt;Steve spent nine years at Bell Labs with the Seventh Edition Unix team. As well as the Bourne shell, he wrote the adb debugger and published /The UNIX System/, the second
+book on the UNIX system, intended for a general readership. This book is recognized as a text for the effective use of UNIX.&lt;/p&gt;
 </content>
   </entry>
 </feed>
