@@ -5,16 +5,36 @@
   <id>https://talks.discoverbsd.com/</id>
   <link href="https://talks.discoverbsd.com/"/>
   <link href="https://talks.discoverbsd.com/feed.xml" rel="self"/>
-  <updated>2016-01-01T01:00:00+01:00</updated>
+  <updated>2016-01-17T01:00:00+01:00</updated>
   <author>
     <name>Jan Hovancik and contributors</name>
   </author>
+  <entry>
+    <title>Unleash your inner console cowboy</title>
+    <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/17/unleash-your-inner-console-cowboy.html"/>
+    <id>https://talks.discoverbsd.com/2016/01/17/unleash-your-inner-console-cowboy.html</id>
+    <published>2016-01-17T01:00:00+01:00</published>
+    <updated>2016-01-17T10:00:27+01:00</updated>
+    <author>
+      <name>Jan Hovancik and contributors</name>
+    </author>
+    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
+&lt;p&gt;When Stephen Bourne released the his shell in 1977, shell scripting was born and he turned every UNIX user into a developer.&lt;/p&gt;
+
+&lt;p&gt;The UNIX shell can be used interactively, but the real power is when the shell is used as a programming language. Modern shells like bash can be seen as a general-purpose language but the syntax and semantics can be awkward at times. Moreover, with UNIX a broad range of small utilities follows (cut, sed, tr, etc.). These utilities together with the programming constructs of the shell, enables the user to automate any tasks and thereby become a more productive user.&lt;/p&gt;
+
+&lt;p&gt;This talk will go through how to use the command-line/terminal/shell efficiently (key bindings, pipes, redirection, etc.), and general patterns and pitfall in shell scripting will be discussed (checking if a file exists, looping, etc.). To feel the real power of OS X, knowing how to write shell scripts is essential.&lt;/p&gt;
+
+&lt;h4 id="about-the-speaker-kenneth-geisshirt"&gt;About the Speaker: Kenneth Geisshirt&lt;/h4&gt;
+&lt;p&gt;Kenneth holds a Ph.D. in chemistry (and a B.Sc. in computer science), and in the 1990s he primarily worked on simulating chemical reacting on supercomputers. After graduating, he has been working as a software developer focusing on open-source software. Currently, he is working for Realm where he is part of the Android team. In his spare time, he has been speaking at meetups, conferences, and user groups and writing articles and book on topics related to software development and open source software.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Early days of Unix and design of sh</title>
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/01/early-days-of-unix-and-design-of-sh.html"/>
     <id>https://talks.discoverbsd.com/2016/01/01/early-days-of-unix-and-design-of-sh.html</id>
     <published>2016-01-01T01:00:00+01:00</published>
-    <updated>2016-01-16T20:19:48+01:00</updated>
+    <updated>2016-01-17T10:00:27+01:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
