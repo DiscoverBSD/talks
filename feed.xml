@@ -5,16 +5,48 @@
   <id>https://talks.discoverbsd.com/</id>
   <link href="https://talks.discoverbsd.com/"/>
   <link href="https://talks.discoverbsd.com/feed.xml" rel="self"/>
-  <updated>2016-01-17T01:00:00+01:00</updated>
+  <updated>2016-01-31T01:00:00+01:00</updated>
   <author>
     <name>Jan Hovancik and contributors</name>
   </author>
+  <entry>
+    <title>A Reimplementation of NetBSD Using a Microkernel</title>
+    <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/31/a-reimplementation-of-netbsd-using-a-microkernel.html"/>
+    <id>https://talks.discoverbsd.com/2016/01/31/a-reimplementation-of-netbsd-using-a-microkernel.html</id>
+    <published>2016-01-31T01:00:00+01:00</published>
+    <updated>2016-01-31T12:35:07+01:00</updated>
+    <author>
+      <name>Jan Hovancik and contributors</name>
+    </author>
+    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
+&lt;p&gt;This talk covers some of the history of Minix 3, what it is and why Andrew
+started the project, and how after years of fighting it why he realized that
+Minix 3 should be more like BSD than being its own thing.&lt;/p&gt;
+
+&lt;p&gt;He also talks a bit about some of the advantages Minix has by using a
+Microkernel design rather than the more traditional monolithic kernel, such as
+its self healing features (fault tolerance), which allows the system to detect
+and recover from things like driver crashes automatically, as well as its
+capability to be fully upgraded in place with no need to reboot the entire
+system.&lt;/p&gt;
+
+&lt;p&gt;Lastly he goes into how at the userland Minix 3.3 is basically NetBSD, minus a
+few of the more obscure system calls, why they chose NetBSD, and where they
+currently stand on the project.&lt;/p&gt;
+
+&lt;h4 id="about-the-speaker-andrew-tanenbaum"&gt;About the Speaker: Andrew Tanenbaum&lt;/h4&gt;
+&lt;p&gt;Andrew Stuart "Andy" Tanenbaum is an American computer scientist and professor
+emeritus of computer science at the Vrje Universiteit, Amsterdam in the
+Netherlands.  He is best known as the author of Minix a free Unix-like OS, that
+runs off of a Mircokernel and has self healing (high fault tolerance).&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Unleash your inner console cowboy</title>
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/17/unleash-your-inner-console-cowboy.html"/>
     <id>https://talks.discoverbsd.com/2016/01/17/unleash-your-inner-console-cowboy.html</id>
     <published>2016-01-17T01:00:00+01:00</published>
-    <updated>2016-01-17T10:00:27+01:00</updated>
+    <updated>2016-01-31T12:35:07+01:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -34,7 +66,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/01/early-days-of-unix-and-design-of-sh.html"/>
     <id>https://talks.discoverbsd.com/2016/01/01/early-days-of-unix-and-design-of-sh.html</id>
     <published>2016-01-01T01:00:00+01:00</published>
-    <updated>2016-01-17T10:00:27+01:00</updated>
+    <updated>2016-01-31T12:35:07+01:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>

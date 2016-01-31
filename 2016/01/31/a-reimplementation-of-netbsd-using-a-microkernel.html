@@ -7,7 +7,7 @@
     <meta property="og:image" content="https://talks.discoverbsd.com/img/talks.jpg"/>
     <meta name="description" content="DiscoverBSD talks | watch - discuss - learn">
     <link href="/css/main.css" rel="stylesheet" />
-    <title>DiscoverBSD Talks  | Unleash your inner console cowboy</title>
+    <title>DiscoverBSD Talks  | A Reimplementation of NetBSD Using a Microkernel</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
@@ -18,43 +18,52 @@
         <article class="post">
 
     <header class="header">
-      <h1 class="header-title"><a href="/2016/01/17/unleash-your-inner-console-cowboy.html">Unleash your inner console cowboy</a></h1>
-      <p class="header-meta">presented by Kenneth Geisshirt at Øredev 2015</p>
+      <h1 class="header-title"><a href="/2016/01/31/a-reimplementation-of-netbsd-using-a-microkernel.html">A Reimplementation of NetBSD Using a Microkernel</a></h1>
+      <p class="header-meta">presented by Andrew S. Tanenbaum at BSDCan 2015</p>
     </header>
     <div class="video">
-          <iframe width="640" height="480" src="https://player.vimeo.com/video/144829972?byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
+          <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="tags">
         <div class="slides">
-            <a class="fa fa-file-powerpoint-o not-dotted" title="Slides" href="http://www.slideshare.net/geisshirt/unleash-your-inner-console-cowboy-54847740"></a>
+            <a class="fa fa-file-powerpoint-o not-dotted" title="Slides" href="http://www.slideshare.net/eurobsdcon/andy-tanenbaum-euro-bsdcon2014v2"></a>
         </div>
       <i class="fa fa-tags"></i>
         <a class="dotted" href="/tags/unix.html">unix</a>
-        <a class="dotted" href="/tags/sh.html">sh</a>
-        <a class="dotted" href="/tags/shell.html">shell</a>
-        <a class="dotted" href="/tags/os-x.html">os x</a>
+        <a class="dotted" href="/tags/netbsd.html">netbsd</a>
+        <a class="dotted" href="/tags/minix.html">minix</a>
+        <a class="dotted" href="/tags/microkernels.html">microkernels</a>
     </div>
 
     <div class="content">
       <h3 id="abstract-for-talk">Abstract for talk:</h3>
-<p>When Stephen Bourne released the his shell in 1977, shell scripting was born and he turned every UNIX user into a developer.</p>
+<p>This talk covers some of the history of Minix 3, what it is and why Andrew
+started the project, and how after years of fighting it why he realized that
+Minix 3 should be more like BSD than being its own thing.</p>
 
-<p>The UNIX shell can be used interactively, but the real power is when the shell is used as a programming language. Modern shells like bash can be seen as a general-purpose language but the syntax and semantics can be awkward at times. Moreover, with UNIX a broad range of small utilities follows (cut, sed, tr, etc.). These utilities together with the programming constructs of the shell, enables the user to automate any tasks and thereby become a more productive user.</p>
+<p>He also talks a bit about some of the advantages Minix has by using a
+Microkernel design rather than the more traditional monolithic kernel, such as
+its self healing features (fault tolerance), which allows the system to detect
+and recover from things like driver crashes automatically, as well as its
+capability to be fully upgraded in place with no need to reboot the entire
+system.</p>
 
-<p>This talk will go through how to use the command-line/terminal/shell efficiently (key bindings, pipes, redirection, etc.), and general patterns and pitfall in shell scripting will be discussed (checking if a file exists, looping, etc.). To feel the real power of OS X, knowing how to write shell scripts is essential.</p>
+<p>Lastly he goes into how at the userland Minix 3.3 is basically NetBSD, minus a
+few of the more obscure system calls, why they chose NetBSD, and where they
+currently stand on the project.</p>
 
-<h4 id="about-the-speaker-kenneth-geisshirt">About the Speaker: Kenneth Geisshirt</h4>
-<p>Kenneth holds a Ph.D. in chemistry (and a B.Sc. in computer science), and in the 1990s he primarily worked on simulating chemical reacting on supercomputers. After graduating, he has been working as a software developer focusing on open-source software. Currently, he is working for Realm where he is part of the Android team. In his spare time, he has been speaking at meetups, conferences, and user groups and writing articles and book on topics related to software development and open source software.</p>
+<h4 id="about-the-speaker-andrew-tanenbaum">About the Speaker: Andrew Tanenbaum</h4>
+<p>Andrew Stuart "Andy" Tanenbaum is an American computer scientist and professor
+emeritus of computer science at the Vrje Universiteit, Amsterdam in the
+Netherlands.  He is best known as the author of Minix a free Unix-like OS, that
+runs off of a Mircokernel and has self healing (high fault tolerance).</p>
 
     </div>
 
     <div class="navigation">
-        <a href="/2016/01/01/early-days-of-unix-and-design-of-sh.html" class="button navigation-previous">
-          Stephen R. Bourne: Early days of Unix and design of sh
-        </a>
-        <a href="/2016/01/31/a-reimplementation-of-netbsd-using-a-microkernel.html" class="button navigation-next">
-          Andrew S. Tanenbaum: A Reimplementation of NetBSD Using a Microkernel
+        <a href="/2016/01/17/unleash-your-inner-console-cowboy.html" class="button navigation-previous">
+          Kenneth Geisshirt: Unleash your inner console cowboy
         </a>
     </div>
     
