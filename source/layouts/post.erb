@@ -7,7 +7,7 @@
     </header>
     <div class="video">
       <% if current_page.data.youtube %>
-          <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/<%= current_page.data.video %>?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
+          <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/<%= current_page.data.youtube %>?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
       <% elsif current_page.data.vimeo  %>
           <iframe width="640" height="480" src="https://player.vimeo.com/video/<%= current_page.data.vimeo %>?byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
       <% end %>
