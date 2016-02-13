@@ -5,16 +5,36 @@
   <id>https://talks.discoverbsd.com/</id>
   <link href="https://talks.discoverbsd.com/"/>
   <link href="https://talks.discoverbsd.com/feed.xml" rel="self"/>
-  <updated>2016-01-31T01:00:00+01:00</updated>
+  <updated>2016-02-13T01:00:00+01:00</updated>
   <author>
     <name>Jan Hovancik and contributors</name>
   </author>
+  <entry>
+    <title>CheriBSD - A research fork of FreeBSD</title>
+    <link rel="alternate" href="https://talks.discoverbsd.com/2016/02/13/cheribsd-a-research-fork-of-freebsd.html"/>
+    <id>https://talks.discoverbsd.com/2016/02/13/cheribsd-a-research-fork-of-freebsd.html</id>
+    <published>2016-02-13T01:00:00+01:00</published>
+    <updated>2016-02-13T14:40:18+01:00</updated>
+    <author>
+      <name>Jan Hovancik and contributors</name>
+    </author>
+    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
+&lt;p&gt;CheriBSD is a fork of FreeBSD to support the CHERI research CPU. We have extended the kernel to provide support for CHERI memory capabilities as well as modifying applications and libraries including tcpdump, libmagic, and libz to take advantage of these capabilities for improved memory safety and compartmentalization. We have also developed custom demo applications and deployment infrastructure for our table demo platform. In this talk I will discuss the challenges facing a long running, public fork of FreeBSD.&lt;/p&gt;
+
+&lt;p&gt;The challenges I discuss will include keeping up with current, our migration from Perforce to Git and the difficulty–and value–of upstreaming improvements. I will also cover our internal and external release process and the products we produce. CheriBSD targets a research environment, but lessons learned will apply to many environments building products or services on customized versions of FreeBSD.&lt;/p&gt;
+
+&lt;h4 id="about-the-speaker-brooks-davis"&gt;About the Speaker: Brooks Davis&lt;/h4&gt;
+&lt;p&gt;Brooks Davis is a Senior Software Engineer in the Computer Science Laboratory at SRI International and a Visiting Research Fellow at the University of Cambridge Computer Laboratory. He has been a FreeBSD user since 1994, a FreeBSD committer since 2001, and was a core team member from 2006 to 2012.&lt;/p&gt;
+
+&lt;p&gt;Brooks earned a Bachelors Degree in Computer Science from Harvey Mudd College in 1998. His computing interests include security, operating systems, networking, high performance computing, and, of course, finding ways to use FreeBSD in all these areas. When not computing, he enjoys cooking, brewing, gardening, woodworking, blacksmithing, and hiking.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>A Reimplementation of NetBSD Using a Microkernel</title>
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/31/a-reimplementation-of-netbsd-using-a-microkernel.html"/>
     <id>https://talks.discoverbsd.com/2016/01/31/a-reimplementation-of-netbsd-using-a-microkernel.html</id>
     <published>2016-01-31T01:00:00+01:00</published>
-    <updated>2016-02-03T09:16:13+01:00</updated>
+    <updated>2016-02-13T14:40:18+01:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -46,7 +66,7 @@ runs off of a Mircokernel and has self healing (high fault tolerance).&lt;/p&gt;
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/17/unleash-your-inner-console-cowboy.html"/>
     <id>https://talks.discoverbsd.com/2016/01/17/unleash-your-inner-console-cowboy.html</id>
     <published>2016-01-17T01:00:00+01:00</published>
-    <updated>2016-02-03T09:16:13+01:00</updated>
+    <updated>2016-02-13T14:40:18+01:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -66,7 +86,7 @@ runs off of a Mircokernel and has self healing (high fault tolerance).&lt;/p&gt;
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/01/early-days-of-unix-and-design-of-sh.html"/>
     <id>https://talks.discoverbsd.com/2016/01/01/early-days-of-unix-and-design-of-sh.html</id>
     <published>2016-01-01T01:00:00+01:00</published>
-    <updated>2016-02-03T09:16:13+01:00</updated>
+    <updated>2016-02-13T14:40:18+01:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
