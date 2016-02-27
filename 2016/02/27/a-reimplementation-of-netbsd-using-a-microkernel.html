@@ -7,7 +7,7 @@
     <meta property="og:image" content="https://talks.discoverbsd.com/img/talks.jpg"/>
     <meta name="description" content="DiscoverBSD talks | watch - discuss - learn">
     <link href="/css/main.css" rel="stylesheet" />
-    <title>DiscoverBSD Talks  | CheriBSD - A research fork of FreeBSD</title>
+    <title>DiscoverBSD Talks  | FreeBSD for High Density Servers</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
@@ -18,42 +18,37 @@
         <article class="post">
 
     <header class="header">
-      <h1 class="header-title"><a href="/2016/02/13/cheribsd-a-research-fork-of-freebsd.html">CheriBSD - A research fork of FreeBSD</a></h1>
-      <p class="header-meta">presented by Brooks Davis at BSDCan 2015</p>
+      <h1 class="header-title"><a href="/2016/02/27/a-reimplementation-of-netbsd-using-a-microkernel.html">FreeBSD for High Density Servers</a></h1>
+      <p class="header-meta">presented by Daichi GOTO at BSDCan 2015</p>
     </header>
     <div class="video">
-          <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/DwCg-51vFAs?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
+          <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/r2BoQ70bwK4?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="tags">
         <div class="slides">
-            <a class="fa fa-file-powerpoint-o not-dotted" title="Slides" href="https://www.bsdcan.org/2015/schedule/attachments/317_BSDCan-CheriBSD.pdf"></a>
+            <a class="fa fa-file-powerpoint-o not-dotted" title="Slides" href="https://www.bsdcan.org/2015/schedule/attachments/331_FreeBSD-on-DX1000.pdf"></a>
         </div>
       <i class="fa fa-tags"></i>
         <a class="dotted" href="/tags/freebsd.html">freebsd</a>
-        <a class="dotted" href="/tags/cheribsd.html">cheribsd</a>
-        <a class="dotted" href="/tags/research.html">research</a>
+        <a class="dotted" href="/tags/servers.html">servers</a>
     </div>
 
     <div class="content">
       <h3 id="abstract-for-talk">Abstract for talk:</h3>
-<p>CheriBSD is a fork of FreeBSD to support the CHERI research CPU. We have extended the kernel to provide support for CHERI memory capabilities as well as modifying applications and libraries including tcpdump, libmagic, and libz to take advantage of these capabilities for improved memory safety and compartmentalization. We have also developed custom demo applications and deployment infrastructure for our table demo platform. In this talk I will discuss the challenges facing a long running, public fork of FreeBSD.</p>
 
-<p>The challenges I discuss will include keeping up with current, our migration from Perforce to Git and the difficulty–and value–of upstreaming improvements. I will also cover our internal and external release process and the products we produce. CheriBSD targets a research environment, but lessons learned will apply to many environments building products or services on customized versions of FreeBSD.</p>
+<p>In this session we will talk about how to install FreeBSD to MicroModularServer and how to manage and control those servers. To install FreeBSD to High Density Servers including NEC MicroModularServer or HP Moonshot, you need another skill compared to install to common PCs and rack mount servers. This kind of servers (low energy consumption, low computing power and high space efficient) are good for too many edge servers/web servers at limited rack space, for example, as an alternative system for Blade servers or many cores servers like Sun Fire T1000/T2000.</p>
 
-<h4 id="about-the-speaker-brooks-davis">About the Speaker: Brooks Davis</h4>
-<p>Brooks Davis is a Senior Software Engineer in the Computer Science Laboratory at SRI International and a Visiting Research Fellow at the University of Cambridge Computer Laboratory. He has been a FreeBSD user since 1994, a FreeBSD committer since 2001, and was a core team member from 2006 to 2012.</p>
+<h4 id="about-the-speaker-daichi-goto">About the Speaker: Daichi GOTO</h4>
+<p>He is a FreeBSD developer and an IT system developer, and has been a technical writer since 1998, writing many FreeBSD related contents.</p>
 
-<p>Brooks earned a Bachelors Degree in Computer Science from Harvey Mudd College in 1998. His computing interests include security, operating systems, networking, high performance computing, and, of course, finding ways to use FreeBSD in all these areas. When not computing, he enjoys cooking, brewing, gardening, woodworking, blacksmithing, and hiking.</p>
+<p>He is a director of BSD Consulting, Inc., a young company at Japan aimed to support FreeBSD-based enterprise system development and its maintenance of the corporate activity. He is a FreeBSD developer and an IT system developer, and has been a technical writer since 1998, writing many FreeBSD and IT relative books, magazines, articles and daily news. Since 2013, he is one of board members of FreeBSD Journal.</p>
 
     </div>
 
     <div class="navigation">
-        <a href="/2016/01/31/a-reimplementation-of-netbsd-using-a-microkernel.html" class="button navigation-previous">
-          Andrew S. Tanenbaum: A Reimplementation of NetBSD Using a Microkernel
-        </a>
-        <a href="/2016/02/27/a-reimplementation-of-netbsd-using-a-microkernel.html" class="button navigation-next">
-          Daichi GOTO: FreeBSD for High Density Servers
+        <a href="/2016/02/13/cheribsd-a-research-fork-of-freebsd.html" class="button navigation-previous">
+          Brooks Davis: CheriBSD - A research fork of FreeBSD
         </a>
     </div>
     
