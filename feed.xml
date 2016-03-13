@@ -5,16 +5,43 @@
   <id>https://talks.discoverbsd.com/</id>
   <link href="https://talks.discoverbsd.com/"/>
   <link href="https://talks.discoverbsd.com/feed.xml" rel="self"/>
-  <updated>2016-02-27T01:00:00+01:00</updated>
+  <updated>2016-03-13T01:00:00+01:00</updated>
   <author>
     <name>Jan Hovancik and contributors</name>
   </author>
+  <entry>
+    <title>FreeBSD Not a Linux Distro</title>
+    <link rel="alternate" href="https://talks.discoverbsd.com/2016/03/13/freebsd-ot-a-linux-distro.html"/>
+    <id>https://talks.discoverbsd.com/2016/03/13/freebsd-ot-a-linux-distro.html</id>
+    <published>2016-03-13T01:00:00+01:00</published>
+    <updated>2016-03-13T10:46:23+01:00</updated>
+    <author>
+      <name>Jan Hovancik and contributors</name>
+    </author>
+    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
+
+&lt;p&gt;In this session George Neville-Neil presents the history of FreeBSD.&lt;/p&gt;
+
+&lt;h4 id="about-the-speaker-daichi-goto"&gt;About the Speaker: Daichi GOTO&lt;/h4&gt;
+&lt;p&gt;George Neville-Neil works on networking and operating system code
+for fun and profit. He also teaches various course on subjects
+related to computer programming. His professional areas of interest
+include code spelunking, operating systems, networking and security.
+He is the co-author with Marshall Kirk McKusick of &lt;em&gt;The Design and
+Implementaion of the FreeBSD operating system&lt;/em&gt; and is the columnist
+behind ACM Queue's "Kode Vicious." Mr. Neville-Neil
+earned his bachelor's degree in computer science at Northeastern
+University in Boston, Massachusetts, and is a member of the ACM,
+the Usenix Association and the IEEE. He is an avid bicyclist and
+traveler who currently resides in New York City.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>FreeBSD for High Density Servers</title>
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/02/27/freebsd-for-high-density-servers.html"/>
     <id>https://talks.discoverbsd.com/2016/02/27/freebsd-for-high-density-servers.html</id>
     <published>2016-02-27T01:00:00+01:00</published>
-    <updated>2016-03-05T18:57:19+01:00</updated>
+    <updated>2016-03-13T10:46:23+01:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -33,7 +60,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/02/13/cheribsd-a-research-fork-of-freebsd.html"/>
     <id>https://talks.discoverbsd.com/2016/02/13/cheribsd-a-research-fork-of-freebsd.html</id>
     <published>2016-02-13T01:00:00+01:00</published>
-    <updated>2016-03-05T18:57:19+01:00</updated>
+    <updated>2016-03-13T10:46:23+01:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -53,7 +80,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/31/a-reimplementation-of-netbsd-using-a-microkernel.html"/>
     <id>https://talks.discoverbsd.com/2016/01/31/a-reimplementation-of-netbsd-using-a-microkernel.html</id>
     <published>2016-01-31T01:00:00+01:00</published>
-    <updated>2016-03-05T18:57:19+01:00</updated>
+    <updated>2016-03-13T10:46:23+01:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -85,7 +112,7 @@ runs off of a Mircokernel and has self healing (high fault tolerance).&lt;/p&gt;
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/17/unleash-your-inner-console-cowboy.html"/>
     <id>https://talks.discoverbsd.com/2016/01/17/unleash-your-inner-console-cowboy.html</id>
     <published>2016-01-17T01:00:00+01:00</published>
-    <updated>2016-03-05T18:57:19+01:00</updated>
+    <updated>2016-03-13T10:46:23+01:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -105,7 +132,7 @@ runs off of a Mircokernel and has self healing (high fault tolerance).&lt;/p&gt;
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/01/early-days-of-unix-and-design-of-sh.html"/>
     <id>https://talks.discoverbsd.com/2016/01/01/early-days-of-unix-and-design-of-sh.html</id>
     <published>2016-01-01T01:00:00+01:00</published>
-    <updated>2016-03-05T18:57:19+01:00</updated>
+    <updated>2016-03-13T10:46:23+01:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
