@@ -1,0 +1,20 @@
+---
+layout: post
+title: Redefining the Desktop Environment for Modern Hardware
+date: 2016-04-02
+tags: desktop, lumina
+youtube: Qh_YK9y4_Os
+author: Ken Moore
+venue: BSDCan 2015
+slides: https://www.bsdcan.org/2015/schedule/attachments/292_LuminaDE2015.pdf
+---
+
+###Abstract for talk:
+As the types of personal computers continue to increase, the traditional “desktop computer” is gradually being shifted to a smaller subset of the total systems in use. This presents a problem for open source operating systems, as the available open source graphical environments are increasingly designed for systems with powerful hardware or traditional mouse/keyboard inputs.
+
+The open-source Lumina desktop environment is designed to solve these problems by meeting its goals of being a highly flexible and scalable interface that runs with relatively little hardware requirements. The project also provides a simple framework for integrating OS-specific functionality directly into the interface for ease-of-use without causing conflict with the underlying system or affecting portability. This session will take a top-level view of the Lumina desktop project, breaking it down to its components, explaining the framework and methodology, and listing the work that is still yet to be completed to achieve its goals.å
+
+####About the Speaker: Ken Moore
+Ken Moore is one of the developers of PC-BSD and generally responsible for any graphical applications within PC-BSD.
+
+Ken Moore is an avid Qt developer, and the creator of PC-BSD utilities such as the PCDM login manager, the Lumina desktop environment, EasyPBI, the device mounting utilities, and many more.

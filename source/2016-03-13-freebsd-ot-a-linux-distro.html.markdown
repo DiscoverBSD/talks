@@ -13,7 +13,7 @@ slides: https://speakerdeck.com/digitalocean/george-neville-neil-freebsd-not-a-l
 
 In this session George Neville-Neil presents the history of FreeBSD.
 
-####About the Speaker: Daichi GOTO
+####About the Speaker: George Neville-Neil
 George Neville-Neil works on networking and operating system code
 for fun and profit. He also teaches various course on subjects
 related to computer programming. His professional areas of interest
