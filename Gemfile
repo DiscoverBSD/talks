@@ -19,3 +19,9 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
+
+# Pronto
+gem 'pronto'
+gem 'pronto-rubocop', require: false
+gem 'pronto-flay', require: false
+gem 'pronto-scss', require: false

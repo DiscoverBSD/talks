@@ -15,4 +15,6 @@ matrix:
   fast_finish: true
   allow_failures:
     - rvm: ruby-head
-script: bundle exec middleman build
+script:
+  - bundle exec middleman build
+  - 'PULL_REQUEST_ID=${TRAVIS_PULL_REQUEST} bundle exec pronto run -f github_pr'
