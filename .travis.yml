@@ -17,4 +17,4 @@ matrix:
     - rvm: ruby-head
 script:
   - bundle exec middleman build
-  - 'PULL_REQUEST_ID=${TRAVIS_PULL_REQUEST} bundle exec pronto run -f github_pr'
+  - 'if [ "$TRAVIS_PULL_REQUEST" == false ]; then echo "TRAVIS_PULL_REQUEST is unset, skipping Pronto"; else PULL_REQUEST_ID=${TRAVIS_PULL_REQUEST} bundle exec pronto run -f github_pr; fi'
