@@ -7,7 +7,7 @@
     <meta property="og:image" content="https://talks.discoverbsd.com/img/talks.jpg"/>
     <meta name="description" content="DiscoverBSD talks | watch - discuss - learn">
     <link href="/css/main.css" rel="stylesheet" />
-    <title>DiscoverBSD Talks  | Protecting FreeBSD with Secure Virtual Architecture</title>
+    <title>DiscoverBSD Talks  | Webapps on Embedded BSD</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
@@ -18,41 +18,33 @@
         <article class="post">
 
     <header class="header">
-      <h1 class="header-title"><a href="/2016/04/17/protecting-freebsd-with-secure-virtual-architecture.html">Protecting FreeBSD with Secure Virtual Architecture</a></h1>
-      <p class="header-meta">presented by John Criswell at BSDCan 2015</p>
+      <h1 class="header-title"><a href="/2016/05/14/webapps-on-embedded-bsd.html">Webapps on Embedded BSD</a></h1>
+      <p class="header-meta">presented by Corey Vixie at MeetBSD 2014</p>
     </header>
     <div class="video">
-          <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/hRIC_aF_u24?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
+          <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/Pbks12Mqpp8?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="tags">
+        <div class="slides">
+            <a class="fa fa-file-powerpoint-o not-dotted" title="Slides" href="http://www.slideshare.net/iXsystems/corey-vixie-webapps-on-embedded-bsd"></a>
+        </div>
       <i class="fa fa-tags"></i>
-        <a class="dotted" href="/tags/freebsd.html">FreeBSD</a>
-        <a class="dotted" href="/tags/security.html">security</a>
+        <a class="dotted" href="/tags/web.html">web</a>
+        <a class="dotted" href="/tags/embedded.html">embedded</a>
+        <a class="dotted" href="/tags/freenas.html">freenas</a>
     </div>
 
     <div class="content">
       <h3 id="abstract-for-talk">Abstract for talk:</h3>
 
-<p>In this talk, I will present our work on using the Secure Virtual Architecture (SVA) to protect FreeBSD applications and the FreeBSD kernel from security attacks. SVA is an LLVM-based infrastructure that permits us to use compiler instrumentation techniques to enforce security policies on both application and kernel code. In this talk, I will briefly describe how we used SVA to implement KCoFI: a system that enforces control-flow integrity and code segment integrity on the FreeBSD kernel to protect it from control-flow hijack attacks. I will then describe how we extended KCoFI to build Virtual Ghost. Virtual Ghost protects applications from a compromised operating system kernel. I will describe how Virtual Ghost uses compiler instrumentation to prevent the FreeBSD kernel from spying on and corrupting private application data and how it prevents the kernel from maliciously modifying application control flow (while still supporting features such as signal handlers and process creation).</p>
-
-<h4 id="about-the-speaker-john-criswell">About the Speaker: John Criswell</h4>
-<p>John Criswell is an assistant professor in the Department of Computer Science at the University of Rochester. His research interests are computer security, operating systems, and compilers.</p>
-
-<p>John Criswell is an assistant professor in the Department of Computer Science at the University of Rochester. He earned both his B.S. in Computer Science (2003) and Ph.D. in Computer Science (2014) at the University of Illinois at Urbana-Champaign.</p>
-
-<p>John’s research interests focus on computer security and novel applications of compiler and operating system technology. John's primary research work is on the Secure Virtual Architecture (SVA). SVA enforces security policies on commodity operating system and application code via compiler instrumentation, thereby providing strong protection against sophisticated attacks. Using SVA, John built the first systems that provide strong automated memory safety protection and complete control-flow integrity enforcement to commodity operating system kernels such as Linux and FreeBSD. More recently, John has used SVA to create the Virtual Ghost system that protects application data and control-flow from a compromised operating system kernel.</p>
-
-<p>Prior to joining the University of Rochester, John was a research programmer and graduate student at the University of Illinois. Before that, John worked at Argus Systems Group, Inc. John’s work at Argus Systems Group included enhancements to the AIX operating system kernel and writing utilities that utilized mandatory access controls to improve system security.</p>
+<p>Webapps on Embedded BSD And the future of FreeNAS.</p>
 
     </div>
 
     <div class="navigation">
-        <a href="/2016/04/02/lumina-de.html" class="button navigation-previous">
-          Ken Moore: Redefining the Desktop Environment for Modern Hardware
-        </a>
-        <a href="/2016/05/14/webapps-on-embedded-bsd.html" class="button navigation-next">
-          Corey Vixie: Webapps on Embedded BSD
+        <a href="/2016/04/17/protecting-freebsd-with-secure-virtual-architecture.html" class="button navigation-previous">
+          John Criswell: Protecting FreeBSD with Secure Virtual Architecture
         </a>
     </div>
     

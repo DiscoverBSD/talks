@@ -5,16 +5,30 @@
   <id>https://talks.discoverbsd.com/</id>
   <link href="https://talks.discoverbsd.com/"/>
   <link href="https://talks.discoverbsd.com/feed.xml" rel="self"/>
-  <updated>2016-04-17T02:00:00+02:00</updated>
+  <updated>2016-05-14T02:00:00+02:00</updated>
   <author>
     <name>Jan Hovancik and contributors</name>
   </author>
+  <entry>
+    <title>Webapps on Embedded BSD</title>
+    <link rel="alternate" href="https://talks.discoverbsd.com/2016/05/14/webapps-on-embedded-bsd.html"/>
+    <id>https://talks.discoverbsd.com/2016/05/14/webapps-on-embedded-bsd.html</id>
+    <published>2016-05-14T02:00:00+02:00</published>
+    <updated>2016-05-14T13:45:50+02:00</updated>
+    <author>
+      <name>Jan Hovancik and contributors</name>
+    </author>
+    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
+
+&lt;p&gt;Webapps on Embedded BSD And the future of FreeNAS.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Protecting FreeBSD with Secure Virtual Architecture</title>
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/04/17/protecting-freebsd-with-secure-virtual-architecture.html"/>
     <id>https://talks.discoverbsd.com/2016/04/17/protecting-freebsd-with-secure-virtual-architecture.html</id>
     <published>2016-04-17T02:00:00+02:00</published>
-    <updated>2016-04-17T10:02:09+02:00</updated>
+    <updated>2016-05-14T13:45:50+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -37,7 +51,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/04/02/lumina-de.html"/>
     <id>https://talks.discoverbsd.com/2016/04/02/lumina-de.html</id>
     <published>2016-04-02T02:00:00+02:00</published>
-    <updated>2016-04-17T10:02:09+02:00</updated>
+    <updated>2016-05-14T13:45:50+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -57,7 +71,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/03/13/freebsd-ot-a-linux-distro.html"/>
     <id>https://talks.discoverbsd.com/2016/03/13/freebsd-ot-a-linux-distro.html</id>
     <published>2016-03-13T01:00:00+01:00</published>
-    <updated>2016-04-17T10:02:09+02:00</updated>
+    <updated>2016-05-14T13:45:50+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -84,7 +98,7 @@ traveler who currently resides in New York City.&lt;/p&gt;
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/02/27/freebsd-for-high-density-servers.html"/>
     <id>https://talks.discoverbsd.com/2016/02/27/freebsd-for-high-density-servers.html</id>
     <published>2016-02-27T01:00:00+01:00</published>
-    <updated>2016-04-17T10:02:09+02:00</updated>
+    <updated>2016-05-14T13:45:50+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -103,7 +117,7 @@ traveler who currently resides in New York City.&lt;/p&gt;
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/02/13/cheribsd-a-research-fork-of-freebsd.html"/>
     <id>https://talks.discoverbsd.com/2016/02/13/cheribsd-a-research-fork-of-freebsd.html</id>
     <published>2016-02-13T01:00:00+01:00</published>
-    <updated>2016-04-17T10:02:09+02:00</updated>
+    <updated>2016-05-14T13:45:50+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -116,38 +130,6 @@ traveler who currently resides in New York City.&lt;/p&gt;
 &lt;p&gt;Brooks Davis is a Senior Software Engineer in the Computer Science Laboratory at SRI International and a Visiting Research Fellow at the University of Cambridge Computer Laboratory. He has been a FreeBSD user since 1994, a FreeBSD committer since 2001, and was a core team member from 2006 to 2012.&lt;/p&gt;
 
 &lt;p&gt;Brooks earned a Bachelors Degree in Computer Science from Harvey Mudd College in 1998. His computing interests include security, operating systems, networking, high performance computing, and, of course, finding ways to use FreeBSD in all these areas. When not computing, he enjoys cooking, brewing, gardening, woodworking, blacksmithing, and hiking.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>A Reimplementation of NetBSD Using a Microkernel</title>
-    <link rel="alternate" href="https://talks.discoverbsd.com/2016/01/31/a-reimplementation-of-netbsd-using-a-microkernel.html"/>
-    <id>https://talks.discoverbsd.com/2016/01/31/a-reimplementation-of-netbsd-using-a-microkernel.html</id>
-    <published>2016-01-31T01:00:00+01:00</published>
-    <updated>2016-04-17T10:02:09+02:00</updated>
-    <author>
-      <name>Jan Hovancik and contributors</name>
-    </author>
-    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
-&lt;p&gt;This talk covers some of the history of Minix 3, what it is and why Andrew
-started the project, and how after years of fighting it why he realized that
-Minix 3 should be more like BSD than being its own thing.&lt;/p&gt;
-
-&lt;p&gt;He also talks a bit about some of the advantages Minix has by using a
-Microkernel design rather than the more traditional monolithic kernel, such as
-its self healing features (fault tolerance), which allows the system to detect
-and recover from things like driver crashes automatically, as well as its
-capability to be fully upgraded in place with no need to reboot the entire
-system.&lt;/p&gt;
-
-&lt;p&gt;Lastly he goes into how at the userland Minix 3.3 is basically NetBSD, minus a
-few of the more obscure system calls, why they chose NetBSD, and where they
-currently stand on the project.&lt;/p&gt;
-
-&lt;h4 id="about-the-speaker-andrew-tanenbaum"&gt;About the Speaker: Andrew Tanenbaum&lt;/h4&gt;
-&lt;p&gt;Andrew Stuart "Andy" Tanenbaum is an American computer scientist and professor
-emeritus of computer science at the Vrje Universiteit, Amsterdam in the
-Netherlands.  He is best known as the author of Minix a free Unix-like OS, that
-runs off of a Mircokernel and has self healing (high fault tolerance).&lt;/p&gt;
 </content>
   </entry>
 </feed>
