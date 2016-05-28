@@ -5,16 +5,52 @@
   <id>https://talks.discoverbsd.com/</id>
   <link href="https://talks.discoverbsd.com/"/>
   <link href="https://talks.discoverbsd.com/feed.xml" rel="self"/>
-  <updated>2016-05-14T02:00:00+02:00</updated>
+  <updated>2016-05-28T02:00:00+02:00</updated>
   <author>
     <name>Jan Hovancik and contributors</name>
   </author>
+  <entry>
+    <title>The Devil in the Details - Switching to BSD from Linux</title>
+    <link rel="alternate" href="https://talks.discoverbsd.com/2016/05/28/switching-to-bsd-from-linux.html"/>
+    <id>https://talks.discoverbsd.com/2016/05/28/switching-to-bsd-from-linux.html</id>
+    <published>2016-05-28T02:00:00+02:00</published>
+    <updated>2016-05-28T10:55:31+02:00</updated>
+    <author>
+      <name>Jan Hovancik and contributors</name>
+    </author>
+    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
+
+&lt;p&gt;When you mention Devils and Penguins — the mascots for both BSD and Linux, respectively — the first thing that might immediately come to mind is an NHL hockey game between New Jersey (the Devils) and Pittsburgh (the Penguins). But we’re not going there with this presentation because, for starters, it’s not a competition.&lt;/p&gt;
+
+&lt;p&gt;Most Free/Open Source Software users run Linux as their operating system of choice, choosing one (or more) of the 300 or so distros currently active on DistroWatch. Not as many have crossed the street, rhetorically speaking, and taken a look at the other Open Source operating system, BSD and its many variants.&lt;/p&gt;
+
+&lt;p&gt;As a long time and current Linux user new to PC-BSD — essentially the BSD equivalent to Linux Mint — my intention is to:&lt;/p&gt;
+
+&lt;p&gt;· Outline the (many) similarities and (few) differences between Linux and BSD,&lt;/p&gt;
+
+&lt;p&gt;· Walk the audience through the process of moving from Linux to BSD, unless the audience is in a hurry, then I’ll run them through it,&lt;/p&gt;
+
+&lt;p&gt;· Describe the ease-of-use and pitfalls of day-to-day use of PC-BSD for the average user, and&lt;/p&gt;
+
+&lt;p&gt;· How to pitch in and make code and other contributions (e.g., documentation, translation) to BSD variants, even while doing the same for Linux distributions,&lt;/p&gt;
+
+&lt;p&gt;· And more!&lt;/p&gt;
+
+&lt;p&gt;This talk is more of an overview rather than instructional, though resources will be made available regarding where to download BSD variants and fundamental instructions on how to install it.&lt;/p&gt;
+
+&lt;h4 id="about-the-speaker-michael-dexter"&gt;About the Speaker: Michael Dexter&lt;/h4&gt;
+
+&lt;p&gt;Michael has used BSD Unix systems since 1991 and wrote his first FreeBSD jail management system in 2005.&lt;/p&gt;
+
+&lt;p&gt;Dissatisfied with existing multiplicity solutions, he has sponsored the BSD.lv sysjail and mult multiplicity research projects and took his BSD support public with the formation of BSD Fund in 2007. Michael is now the Editor of Call For Testing, a BSD technical journal and lives with his wife and daughter in Portland, Oregon.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Webapps on Embedded BSD</title>
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/05/14/webapps-on-embedded-bsd.html"/>
     <id>https://talks.discoverbsd.com/2016/05/14/webapps-on-embedded-bsd.html</id>
     <published>2016-05-14T02:00:00+02:00</published>
-    <updated>2016-05-14T13:45:50+02:00</updated>
+    <updated>2016-05-28T10:55:31+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -28,7 +64,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/04/17/protecting-freebsd-with-secure-virtual-architecture.html"/>
     <id>https://talks.discoverbsd.com/2016/04/17/protecting-freebsd-with-secure-virtual-architecture.html</id>
     <published>2016-04-17T02:00:00+02:00</published>
-    <updated>2016-05-14T13:45:50+02:00</updated>
+    <updated>2016-05-28T10:55:31+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -51,7 +87,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/04/02/lumina-de.html"/>
     <id>https://talks.discoverbsd.com/2016/04/02/lumina-de.html</id>
     <published>2016-04-02T02:00:00+02:00</published>
-    <updated>2016-05-14T13:45:50+02:00</updated>
+    <updated>2016-05-28T10:55:31+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -71,7 +107,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/03/13/freebsd-ot-a-linux-distro.html"/>
     <id>https://talks.discoverbsd.com/2016/03/13/freebsd-ot-a-linux-distro.html</id>
     <published>2016-03-13T01:00:00+01:00</published>
-    <updated>2016-05-14T13:45:50+02:00</updated>
+    <updated>2016-05-28T10:55:31+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -98,7 +134,7 @@ traveler who currently resides in New York City.&lt;/p&gt;
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/02/27/freebsd-for-high-density-servers.html"/>
     <id>https://talks.discoverbsd.com/2016/02/27/freebsd-for-high-density-servers.html</id>
     <published>2016-02-27T01:00:00+01:00</published>
-    <updated>2016-05-14T13:45:50+02:00</updated>
+    <updated>2016-05-28T10:55:31+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -110,26 +146,6 @@ traveler who currently resides in New York City.&lt;/p&gt;
 &lt;p&gt;He is a FreeBSD developer and an IT system developer, and has been a technical writer since 1998, writing many FreeBSD related contents.&lt;/p&gt;
 
 &lt;p&gt;He is a director of BSD Consulting, Inc., a young company at Japan aimed to support FreeBSD-based enterprise system development and its maintenance of the corporate activity. He is a FreeBSD developer and an IT system developer, and has been a technical writer since 1998, writing many FreeBSD and IT relative books, magazines, articles and daily news. Since 2013, he is one of board members of FreeBSD Journal.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>CheriBSD - A research fork of FreeBSD</title>
-    <link rel="alternate" href="https://talks.discoverbsd.com/2016/02/13/cheribsd-a-research-fork-of-freebsd.html"/>
-    <id>https://talks.discoverbsd.com/2016/02/13/cheribsd-a-research-fork-of-freebsd.html</id>
-    <published>2016-02-13T01:00:00+01:00</published>
-    <updated>2016-05-14T13:45:50+02:00</updated>
-    <author>
-      <name>Jan Hovancik and contributors</name>
-    </author>
-    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
-&lt;p&gt;CheriBSD is a fork of FreeBSD to support the CHERI research CPU. We have extended the kernel to provide support for CHERI memory capabilities as well as modifying applications and libraries including tcpdump, libmagic, and libz to take advantage of these capabilities for improved memory safety and compartmentalization. We have also developed custom demo applications and deployment infrastructure for our table demo platform. In this talk I will discuss the challenges facing a long running, public fork of FreeBSD.&lt;/p&gt;
-
-&lt;p&gt;The challenges I discuss will include keeping up with current, our migration from Perforce to Git and the difficulty–and value–of upstreaming improvements. I will also cover our internal and external release process and the products we produce. CheriBSD targets a research environment, but lessons learned will apply to many environments building products or services on customized versions of FreeBSD.&lt;/p&gt;
-
-&lt;h4 id="about-the-speaker-brooks-davis"&gt;About the Speaker: Brooks Davis&lt;/h4&gt;
-&lt;p&gt;Brooks Davis is a Senior Software Engineer in the Computer Science Laboratory at SRI International and a Visiting Research Fellow at the University of Cambridge Computer Laboratory. He has been a FreeBSD user since 1994, a FreeBSD committer since 2001, and was a core team member from 2006 to 2012.&lt;/p&gt;
-
-&lt;p&gt;Brooks earned a Bachelors Degree in Computer Science from Harvey Mudd College in 1998. His computing interests include security, operating systems, networking, high performance computing, and, of course, finding ways to use FreeBSD in all these areas. When not computing, he enjoys cooking, brewing, gardening, woodworking, blacksmithing, and hiking.&lt;/p&gt;
 </content>
   </entry>
 </feed>
