@@ -6,7 +6,6 @@ tags: web, embedded, freenas
 youtube: 6k1Mf0c6YW8
 author: Michael Dexter
 venue: LinuxFest Northwest 2016
-slides: http://www.slideshare.net/iXsystems/corey-vixie-webapps-on-embedded-bsd
 ---
 
 ###Abstract for talk:
