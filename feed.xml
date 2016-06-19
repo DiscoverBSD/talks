@@ -5,16 +5,38 @@
   <id>https://talks.discoverbsd.com/</id>
   <link href="https://talks.discoverbsd.com/"/>
   <link href="https://talks.discoverbsd.com/feed.xml" rel="self"/>
-  <updated>2016-05-28T02:00:00+02:00</updated>
+  <updated>2016-06-19T02:00:00+02:00</updated>
   <author>
     <name>Jan Hovancik and contributors</name>
   </author>
+  <entry>
+    <title>Unifying jail and package management for PC-BSD, FreeNAS and FreeBSD</title>
+    <link rel="alternate" href="https://talks.discoverbsd.com/2016/06/19/unifying-jail-and-package-management.html"/>
+    <id>https://talks.discoverbsd.com/2016/06/19/unifying-jail-and-package-management.html</id>
+    <published>2016-06-19T02:00:00+02:00</published>
+    <updated>2016-06-19T10:44:10+02:00</updated>
+    <author>
+      <name>Jan Hovancik and contributors</name>
+    </author>
+    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
+
+&lt;p&gt;Historically the PC-BSD project has had easy-to-use, powerful GUI utilities for package and jail management. However, being X11/Qt applications, this made their usefulness limited only to workstations, or other systems running a graphical environment, not particularly well suited for FreeNAS or a traditional FreeBSD server. With the rise of web-browser driven system management, it was also time for PC-BSD to begin converting some of its more popular tools into web-manageable forms.&lt;/p&gt;
+
+&lt;p&gt;Over the summer of 2014, a new project was started to re-create the AppCafe, a pkgng front-end, and the Warden, a jail manager, into web-accessible utilities for inclusion into both PC-BSD and FreeNAS. This front-end allows remote management of jails and packages on the upcoming FreeNAS 10, as well as system package management on FreeBSD and PC-BSD. This talk will provide a high-level overview of the functionality of the new AppCafe / Warden, along with technical details about the implementation for developers.&lt;/p&gt;
+
+&lt;h4 id="about-the-speaker-kris-moore"&gt;About the Speaker: Kris Moore&lt;/h4&gt;
+
+&lt;p&gt;Kris Moore is the founder of the PC-BSD project, and co-host of the BSDNow video podcast.&lt;/p&gt;
+
+&lt;p&gt;Kris Moore is the founder and lead developer of the PC-BSD project. He is also the co-host of the popular BSDNow video podcast. When not at home programming, he travels around the world giving talks and tutorials on various BSD related topics at Linux and BSD conferences alike. He currently lives in Tennessee (USA) with his wife and five children and enjoys playing bass guitar / video gaming in his (very limited) spare time.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>The Devil in the Details - Switching to BSD from Linux</title>
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/05/28/switching-to-bsd-from-linux.html"/>
     <id>https://talks.discoverbsd.com/2016/05/28/switching-to-bsd-from-linux.html</id>
     <published>2016-05-28T02:00:00+02:00</published>
-    <updated>2016-05-28T11:59:16+02:00</updated>
+    <updated>2016-06-19T10:44:10+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -50,7 +72,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/05/14/webapps-on-embedded-bsd.html"/>
     <id>https://talks.discoverbsd.com/2016/05/14/webapps-on-embedded-bsd.html</id>
     <published>2016-05-14T02:00:00+02:00</published>
-    <updated>2016-05-28T11:59:16+02:00</updated>
+    <updated>2016-06-19T10:44:10+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -64,7 +86,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/04/17/protecting-freebsd-with-secure-virtual-architecture.html"/>
     <id>https://talks.discoverbsd.com/2016/04/17/protecting-freebsd-with-secure-virtual-architecture.html</id>
     <published>2016-04-17T02:00:00+02:00</published>
-    <updated>2016-05-28T11:59:16+02:00</updated>
+    <updated>2016-06-19T10:44:10+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -87,7 +109,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/04/02/lumina-de.html"/>
     <id>https://talks.discoverbsd.com/2016/04/02/lumina-de.html</id>
     <published>2016-04-02T02:00:00+02:00</published>
-    <updated>2016-05-28T11:59:16+02:00</updated>
+    <updated>2016-06-19T10:44:10+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -107,7 +129,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/03/13/freebsd-ot-a-linux-distro.html"/>
     <id>https://talks.discoverbsd.com/2016/03/13/freebsd-ot-a-linux-distro.html</id>
     <published>2016-03-13T01:00:00+01:00</published>
-    <updated>2016-05-28T11:59:16+02:00</updated>
+    <updated>2016-06-19T10:44:10+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -127,25 +149,6 @@ earned his bachelor's degree in computer science at Northeastern
 University in Boston, Massachusetts, and is a member of the ACM,
 the Usenix Association and the IEEE. He is an avid bicyclist and
 traveler who currently resides in New York City.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>FreeBSD for High Density Servers</title>
-    <link rel="alternate" href="https://talks.discoverbsd.com/2016/02/27/freebsd-for-high-density-servers.html"/>
-    <id>https://talks.discoverbsd.com/2016/02/27/freebsd-for-high-density-servers.html</id>
-    <published>2016-02-27T01:00:00+01:00</published>
-    <updated>2016-05-28T11:59:16+02:00</updated>
-    <author>
-      <name>Jan Hovancik and contributors</name>
-    </author>
-    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
-
-&lt;p&gt;In this session we will talk about how to install FreeBSD to MicroModularServer and how to manage and control those servers. To install FreeBSD to High Density Servers including NEC MicroModularServer or HP Moonshot, you need another skill compared to install to common PCs and rack mount servers. This kind of servers (low energy consumption, low computing power and high space efficient) are good for too many edge servers/web servers at limited rack space, for example, as an alternative system for Blade servers or many cores servers like Sun Fire T1000/T2000.&lt;/p&gt;
-
-&lt;h4 id="about-the-speaker-daichi-goto"&gt;About the Speaker: Daichi GOTO&lt;/h4&gt;
-&lt;p&gt;He is a FreeBSD developer and an IT system developer, and has been a technical writer since 1998, writing many FreeBSD related contents.&lt;/p&gt;
-
-&lt;p&gt;He is a director of BSD Consulting, Inc., a young company at Japan aimed to support FreeBSD-based enterprise system development and its maintenance of the corporate activity. He is a FreeBSD developer and an IT system developer, and has been a technical writer since 1998, writing many FreeBSD and IT relative books, magazines, articles and daily news. Since 2013, he is one of board members of FreeBSD Journal.&lt;/p&gt;
 </content>
   </entry>
 </feed>

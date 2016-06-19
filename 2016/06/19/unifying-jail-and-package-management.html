@@ -7,7 +7,7 @@
     <meta property="og:image" content="https://talks.discoverbsd.com/img/talks.jpg"/>
     <meta name="description" content="DiscoverBSD talks | watch - discuss - learn">
     <link href="/css/main.css" rel="stylesheet" />
-    <title>DiscoverBSD Talks  | The Devil in the Details - Switching to BSD from Linux</title>
+    <title>DiscoverBSD Talks  | Unifying jail and package management for PC-BSD, FreeNAS and FreeBSD</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
@@ -18,55 +18,43 @@
         <article class="post">
 
     <header class="header">
-      <h1 class="header-title"><a href="/2016/05/28/switching-to-bsd-from-linux.html">The Devil in the Details - Switching to BSD from Linux</a></h1>
-      <p class="header-meta">presented by Michael Dexter at LinuxFest Northwest 2016</p>
+      <h1 class="header-title"><a href="/2016/06/19/unifying-jail-and-package-management.html">Unifying jail and package management for PC-BSD, FreeNAS and FreeBSD</a></h1>
+      <p class="header-meta">presented by Kris Moore at BSDCan 2015</p>
     </header>
     <div class="video">
-          <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/6k1Mf0c6YW8?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
+          <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/qNYXqpJiFN0?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="tags">
+        <div class="slides">
+            <a class="fa fa-file-powerpoint-o not-dotted" title="Slides" href="https://www.bsdcan.org/2015/schedule/attachments/291_appcafe-talk2015.odt"></a>
+        </div>
       <i class="fa fa-tags"></i>
-        <a class="dotted" href="/tags/web.html">web</a>
-        <a class="dotted" href="/tags/embedded.html">embedded</a>
+        <a class="dotted" href="/tags/jail.html">jail</a>
+        <a class="dotted" href="/tags/package.html">package</a>
         <a class="dotted" href="/tags/freenas.html">freenas</a>
+        <a class="dotted" href="/tags/freebsd.html">freebsd</a>
+        <a class="dotted" href="/tags/pc-bsd.html">pc-bsd</a>
     </div>
 
     <div class="content">
       <h3 id="abstract-for-talk">Abstract for talk:</h3>
 
-<p>When you mention Devils and Penguins — the mascots for both BSD and Linux, respectively — the first thing that might immediately come to mind is an NHL hockey game between New Jersey (the Devils) and Pittsburgh (the Penguins). But we’re not going there with this presentation because, for starters, it’s not a competition.</p>
+<p>Historically the PC-BSD project has had easy-to-use, powerful GUI utilities for package and jail management. However, being X11/Qt applications, this made their usefulness limited only to workstations, or other systems running a graphical environment, not particularly well suited for FreeNAS or a traditional FreeBSD server. With the rise of web-browser driven system management, it was also time for PC-BSD to begin converting some of its more popular tools into web-manageable forms.</p>
 
-<p>Most Free/Open Source Software users run Linux as their operating system of choice, choosing one (or more) of the 300 or so distros currently active on DistroWatch. Not as many have crossed the street, rhetorically speaking, and taken a look at the other Open Source operating system, BSD and its many variants.</p>
+<p>Over the summer of 2014, a new project was started to re-create the AppCafe, a pkgng front-end, and the Warden, a jail manager, into web-accessible utilities for inclusion into both PC-BSD and FreeNAS. This front-end allows remote management of jails and packages on the upcoming FreeNAS 10, as well as system package management on FreeBSD and PC-BSD. This talk will provide a high-level overview of the functionality of the new AppCafe / Warden, along with technical details about the implementation for developers.</p>
 
-<p>As a long time and current Linux user new to PC-BSD — essentially the BSD equivalent to Linux Mint — my intention is to:</p>
+<h4 id="about-the-speaker-kris-moore">About the Speaker: Kris Moore</h4>
 
-<p>· Outline the (many) similarities and (few) differences between Linux and BSD,</p>
+<p>Kris Moore is the founder of the PC-BSD project, and co-host of the BSDNow video podcast.</p>
 
-<p>· Walk the audience through the process of moving from Linux to BSD, unless the audience is in a hurry, then I’ll run them through it,</p>
-
-<p>· Describe the ease-of-use and pitfalls of day-to-day use of PC-BSD for the average user, and</p>
-
-<p>· How to pitch in and make code and other contributions (e.g., documentation, translation) to BSD variants, even while doing the same for Linux distributions,</p>
-
-<p>· And more!</p>
-
-<p>This talk is more of an overview rather than instructional, though resources will be made available regarding where to download BSD variants and fundamental instructions on how to install it.</p>
-
-<h4 id="about-the-speaker-michael-dexter">About the Speaker: Michael Dexter</h4>
-
-<p>Michael has used BSD Unix systems since 1991 and wrote his first FreeBSD jail management system in 2005.</p>
-
-<p>Dissatisfied with existing multiplicity solutions, he has sponsored the BSD.lv sysjail and mult multiplicity research projects and took his BSD support public with the formation of BSD Fund in 2007. Michael is now the Editor of Call For Testing, a BSD technical journal and lives with his wife and daughter in Portland, Oregon.</p>
+<p>Kris Moore is the founder and lead developer of the PC-BSD project. He is also the co-host of the popular BSDNow video podcast. When not at home programming, he travels around the world giving talks and tutorials on various BSD related topics at Linux and BSD conferences alike. He currently lives in Tennessee (USA) with his wife and five children and enjoys playing bass guitar / video gaming in his (very limited) spare time.</p>
 
     </div>
 
     <div class="navigation">
-        <a href="/2016/05/14/webapps-on-embedded-bsd.html" class="button navigation-previous">
-          Corey Vixie: Webapps on Embedded BSD
-        </a>
-        <a href="/2016/06/19/unifying-jail-and-package-management.html" class="button navigation-next">
-          Kris Moore: Unifying jail and package management for PC-BSD, FreeNAS and FreeBSD
+        <a href="/2016/05/28/switching-to-bsd-from-linux.html" class="button navigation-previous">
+          Michael Dexter: The Devil in the Details - Switching to BSD from Linux
         </a>
     </div>
     
