@@ -5,16 +5,40 @@
   <id>https://talks.discoverbsd.com/</id>
   <link href="https://talks.discoverbsd.com/"/>
   <link href="https://talks.discoverbsd.com/feed.xml" rel="self"/>
-  <updated>2016-06-19T02:00:00+02:00</updated>
+  <updated>2016-07-03T02:00:00+02:00</updated>
   <author>
     <name>Jan Hovancik and contributors</name>
   </author>
+  <entry>
+    <title>Open/LibreSSL in FreeBSD</title>
+    <link rel="alternate" href="https://talks.discoverbsd.com/2016/07/03/openssl-libressl-in-freebsd.html"/>
+    <id>https://talks.discoverbsd.com/2016/07/03/openssl-libressl-in-freebsd.html</id>
+    <published>2016-07-03T02:00:00+02:00</published>
+    <updated>2016-07-03T16:32:46+02:00</updated>
+    <author>
+      <name>Jan Hovancik and contributors</name>
+    </author>
+    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
+
+&lt;p&gt;This talk will address the changes required to ports to deal with the changes that LibreSSL introduced (and keeps introducing). Additionally I will talk about the support-lifecycle of both the LibreSSL and OpenSSL projects and the impact on operating systems and other software projects. Lastly I will address making OpenSSL in base private and/or replacing FreeBSD's base OpenSSL with LibreSSL.&lt;/p&gt;
+
+&lt;p&gt;Following the Heartbleed vulnerability OpenBSD forked OpenSSL into LibreSSL. The portable version of LibreSSL was ported to FreeBSD a day after it was released causing a large number of problems with ports. Meanwhile OpenSSL changed its support-lifecycle and will stop supporting current versions very soon. LibreSSL is being actively developed which induces more changes to ports.&lt;/p&gt;
+
+&lt;p&gt;The PC-BSD project ran an 'EDGE' build of their packages with LibreSSL which surfaced a number of problems with major ports like Python, OpenLDAP and Apache. After the first major ports were fixed the build surfaced ca 100 packages failing to build for various reasons. I will show some examples of these problems and fixes for them. With the release of LibreSSL 2.3 came the removal of SSLv3. This caused another ca 100 ports to fail due to hard dependencies on SSLv3 methods in the libraries. Again some major ports where affected. I will show an example of this issue and the proper solution to it.&lt;/p&gt;
+
+&lt;p&gt;Additionally, there are ports that are not linking the desired OpenSSL libraries. Even when WITHOPENSSLPORTS is defined they link to the libraries in /usr/lib. Work is underway trying to make the OpenSSL libraries in base 'private' libraries. I will show the work performed and the effects on a system.&lt;/p&gt;
+
+&lt;h4 id="about-the-speaker-bernard-spil"&gt;About the Speaker: Bernard Spil&lt;/h4&gt;
+
+&lt;p&gt;Read about him at https://wiki.freebsd.org/BernardSpil.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Unifying jail and package management for PC-BSD, FreeNAS and FreeBSD</title>
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/06/19/unifying-jail-and-package-management.html"/>
     <id>https://talks.discoverbsd.com/2016/06/19/unifying-jail-and-package-management.html</id>
     <published>2016-06-19T02:00:00+02:00</published>
-    <updated>2016-06-19T10:44:10+02:00</updated>
+    <updated>2016-07-03T16:32:46+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -36,7 +60,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/05/28/switching-to-bsd-from-linux.html"/>
     <id>https://talks.discoverbsd.com/2016/05/28/switching-to-bsd-from-linux.html</id>
     <published>2016-05-28T02:00:00+02:00</published>
-    <updated>2016-06-19T10:44:10+02:00</updated>
+    <updated>2016-07-03T16:32:46+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -72,7 +96,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/05/14/webapps-on-embedded-bsd.html"/>
     <id>https://talks.discoverbsd.com/2016/05/14/webapps-on-embedded-bsd.html</id>
     <published>2016-05-14T02:00:00+02:00</published>
-    <updated>2016-06-19T10:44:10+02:00</updated>
+    <updated>2016-07-03T16:32:46+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -86,7 +110,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/04/17/protecting-freebsd-with-secure-virtual-architecture.html"/>
     <id>https://talks.discoverbsd.com/2016/04/17/protecting-freebsd-with-secure-virtual-architecture.html</id>
     <published>2016-04-17T02:00:00+02:00</published>
-    <updated>2016-06-19T10:44:10+02:00</updated>
+    <updated>2016-07-03T16:32:46+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -109,7 +133,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/04/02/lumina-de.html"/>
     <id>https://talks.discoverbsd.com/2016/04/02/lumina-de.html</id>
     <published>2016-04-02T02:00:00+02:00</published>
-    <updated>2016-06-19T10:44:10+02:00</updated>
+    <updated>2016-07-03T16:32:46+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -122,33 +146,6 @@
 &lt;p&gt;Ken Moore is one of the developers of PC-BSD and generally responsible for any graphical applications within PC-BSD.&lt;/p&gt;
 
 &lt;p&gt;Ken Moore is an avid Qt developer, and the creator of PC-BSD utilities such as the PCDM login manager, the Lumina desktop environment, EasyPBI, the device mounting utilities, and many more.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>FreeBSD Not a Linux Distro</title>
-    <link rel="alternate" href="https://talks.discoverbsd.com/2016/03/13/freebsd-ot-a-linux-distro.html"/>
-    <id>https://talks.discoverbsd.com/2016/03/13/freebsd-ot-a-linux-distro.html</id>
-    <published>2016-03-13T01:00:00+01:00</published>
-    <updated>2016-06-19T10:44:10+02:00</updated>
-    <author>
-      <name>Jan Hovancik and contributors</name>
-    </author>
-    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
-
-&lt;p&gt;In this session George Neville-Neil presents the history of FreeBSD.&lt;/p&gt;
-
-&lt;h4 id="about-the-speaker-george-neville-neil"&gt;About the Speaker: George Neville-Neil&lt;/h4&gt;
-&lt;p&gt;George Neville-Neil works on networking and operating system code
-for fun and profit. He also teaches various course on subjects
-related to computer programming. His professional areas of interest
-include code spelunking, operating systems, networking and security.
-He is the co-author with Marshall Kirk McKusick of &lt;em&gt;The Design and
-Implementaion of the FreeBSD operating system&lt;/em&gt; and is the columnist
-behind ACM Queue's "Kode Vicious." Mr. Neville-Neil
-earned his bachelor's degree in computer science at Northeastern
-University in Boston, Massachusetts, and is a member of the ACM,
-the Usenix Association and the IEEE. He is an avid bicyclist and
-traveler who currently resides in New York City.&lt;/p&gt;
 </content>
   </entry>
 </feed>

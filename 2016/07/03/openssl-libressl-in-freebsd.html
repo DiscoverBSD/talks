@@ -7,7 +7,7 @@
     <meta property="og:image" content="https://talks.discoverbsd.com/img/talks.jpg"/>
     <meta name="description" content="DiscoverBSD talks | watch - discuss - learn">
     <link href="/css/main.css" rel="stylesheet" />
-    <title>DiscoverBSD Talks  | Unifying jail and package management for PC-BSD, FreeNAS and FreeBSD</title>
+    <title>DiscoverBSD Talks  | Open/LibreSSL in FreeBSD</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
@@ -18,46 +18,43 @@
         <article class="post">
 
     <header class="header">
-      <h1 class="header-title"><a href="/2016/06/19/unifying-jail-and-package-management.html">Unifying jail and package management for PC-BSD, FreeNAS and FreeBSD</a></h1>
-      <p class="header-meta">presented by Kris Moore at BSDCan 2015</p>
+      <h1 class="header-title"><a href="/2016/07/03/openssl-libressl-in-freebsd.html">Open/LibreSSL in FreeBSD</a></h1>
+      <p class="header-meta">presented by Bernard Spil at BSDCan 2016</p>
     </header>
     <div class="video">
-          <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/qNYXqpJiFN0?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
+          <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/JGgoBQ0hVpw?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="tags">
         <div class="slides">
-            <a class="fa fa-file-powerpoint-o not-dotted" title="Slides" href="https://www.bsdcan.org/2015/schedule/attachments/291_appcafe-talk2015.odt"></a>
+            <a class="fa fa-file-powerpoint-o not-dotted" title="Slides" href="https://www.bsdcan.org/2016/schedule/attachments/373_State%20of%20LibreSSL%20in%20FreeBSD%20ports%20and%20base.pdf"></a>
         </div>
       <i class="fa fa-tags"></i>
-        <a class="dotted" href="/tags/jail.html">jail</a>
-        <a class="dotted" href="/tags/package.html">package</a>
-        <a class="dotted" href="/tags/freenas.html">freenas</a>
+        <a class="dotted" href="/tags/openssl.html">openssl</a>
+        <a class="dotted" href="/tags/libressl.html">libressl</a>
         <a class="dotted" href="/tags/freebsd.html">freebsd</a>
-        <a class="dotted" href="/tags/pc-bsd.html">pc-bsd</a>
     </div>
 
     <div class="content">
       <h3 id="abstract-for-talk">Abstract for talk:</h3>
 
-<p>Historically the PC-BSD project has had easy-to-use, powerful GUI utilities for package and jail management. However, being X11/Qt applications, this made their usefulness limited only to workstations, or other systems running a graphical environment, not particularly well suited for FreeNAS or a traditional FreeBSD server. With the rise of web-browser driven system management, it was also time for PC-BSD to begin converting some of its more popular tools into web-manageable forms.</p>
+<p>This talk will address the changes required to ports to deal with the changes that LibreSSL introduced (and keeps introducing). Additionally I will talk about the support-lifecycle of both the LibreSSL and OpenSSL projects and the impact on operating systems and other software projects. Lastly I will address making OpenSSL in base private and/or replacing FreeBSD's base OpenSSL with LibreSSL.</p>
 
-<p>Over the summer of 2014, a new project was started to re-create the AppCafe, a pkgng front-end, and the Warden, a jail manager, into web-accessible utilities for inclusion into both PC-BSD and FreeNAS. This front-end allows remote management of jails and packages on the upcoming FreeNAS 10, as well as system package management on FreeBSD and PC-BSD. This talk will provide a high-level overview of the functionality of the new AppCafe / Warden, along with technical details about the implementation for developers.</p>
+<p>Following the Heartbleed vulnerability OpenBSD forked OpenSSL into LibreSSL. The portable version of LibreSSL was ported to FreeBSD a day after it was released causing a large number of problems with ports. Meanwhile OpenSSL changed its support-lifecycle and will stop supporting current versions very soon. LibreSSL is being actively developed which induces more changes to ports.</p>
 
-<h4 id="about-the-speaker-kris-moore">About the Speaker: Kris Moore</h4>
+<p>The PC-BSD project ran an 'EDGE' build of their packages with LibreSSL which surfaced a number of problems with major ports like Python, OpenLDAP and Apache. After the first major ports were fixed the build surfaced ca 100 packages failing to build for various reasons. I will show some examples of these problems and fixes for them. With the release of LibreSSL 2.3 came the removal of SSLv3. This caused another ca 100 ports to fail due to hard dependencies on SSLv3 methods in the libraries. Again some major ports where affected. I will show an example of this issue and the proper solution to it.</p>
 
-<p>Kris Moore is the founder of the PC-BSD project, and co-host of the BSDNow video podcast.</p>
+<p>Additionally, there are ports that are not linking the desired OpenSSL libraries. Even when WITHOPENSSLPORTS is defined they link to the libraries in /usr/lib. Work is underway trying to make the OpenSSL libraries in base 'private' libraries. I will show the work performed and the effects on a system.</p>
 
-<p>Kris Moore is the founder and lead developer of the PC-BSD project. He is also the co-host of the popular BSDNow video podcast. When not at home programming, he travels around the world giving talks and tutorials on various BSD related topics at Linux and BSD conferences alike. He currently lives in Tennessee (USA) with his wife and five children and enjoys playing bass guitar / video gaming in his (very limited) spare time.</p>
+<h4 id="about-the-speaker-bernard-spil">About the Speaker: Bernard Spil</h4>
+
+<p>Read about him at https://wiki.freebsd.org/BernardSpil.</p>
 
     </div>
 
     <div class="navigation">
-        <a href="/2016/05/28/switching-to-bsd-from-linux.html" class="button navigation-previous">
-          Michael Dexter: The Devil in the Details - Switching to BSD from Linux
-        </a>
-        <a href="/2016/07/03/openssl-libressl-in-freebsd.html" class="button navigation-next">
-          Bernard Spil: Open/LibreSSL in FreeBSD
+        <a href="/2016/06/19/unifying-jail-and-package-management.html" class="button navigation-previous">
+          Kris Moore: Unifying jail and package management for PC-BSD, FreeNAS and FreeBSD
         </a>
     </div>
     
