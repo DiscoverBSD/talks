@@ -5,16 +5,39 @@
   <id>https://talks.discoverbsd.com/</id>
   <link href="https://talks.discoverbsd.com/"/>
   <link href="https://talks.discoverbsd.com/feed.xml" rel="self"/>
-  <updated>2016-07-03T02:00:00+02:00</updated>
+  <updated>2016-08-14T02:00:00+02:00</updated>
   <author>
     <name>Jan Hovancik and contributors</name>
   </author>
+  <entry>
+    <title>Limits and the practical usability of BSDs, a big data prospective</title>
+    <link rel="alternate" href="https://talks.discoverbsd.com/2016/08/14/limits-and-the-practical-usability-of-bsds-a-big-data-prospective.html"/>
+    <id>https://talks.discoverbsd.com/2016/08/14/limits-and-the-practical-usability-of-bsds-a-big-data-prospective.html</id>
+    <published>2016-08-14T02:00:00+02:00</published>
+    <updated>2016-08-14T11:28:00+02:00</updated>
+    <author>
+      <name>Jan Hovancik and contributors</name>
+    </author>
+    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
+
+&lt;p&gt;The Auton Lab, part of Carnegie Mellon University's School of Computer Science, is a premier Statistical Data Mining group. We are interested in the underlying CS, Mathematics, Statistics and A.I. of detection and exploitation of patterns in data. We build practical large-scale deployments of very highly autonomous self-improving systems.&lt;/p&gt;
+
+&lt;p&gt;The Auton Lab computing infrastructure consists of about 40 large servers, 20 desktops and over 20 virtual instances, independently maintained from the scientific computing grid of the School of Computer Science. Three years ago I almost accidentally put on a system admin hat. Being a life long UNIX user and BSD hobbyist for the past 10 years I naturally tried to use BSDs whenever possible while rebuilding our internal network formerly ruled by penguins.&lt;/p&gt;
+
+&lt;p&gt;In this short talk I discuss limits and the practical usability of BSDs (Open, Free, and DF) and the obstacles of completely getting rid of penguins. Why is utilizing AWS further complicating my calculus?&lt;/p&gt;
+
+&lt;h4 id="about-the-speaker-predrag-punosevac"&gt;About the Speaker: Predrag Punosevac&lt;/h4&gt;
+
+&lt;p&gt;His principle research area is dynamical systems theory and applications. A dynamical system consists of a manifold whose points represent possible states of the system, "time" which may be continuous or discrete, and a time-evolution law.
+In some nonlinear systems similar initial states of the system lead to a very different future states. Such a phenomenon is known as chaos. As a consequence, the behavior of the system appears to be random despite the fact that system is deterministic.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Open/LibreSSL in FreeBSD</title>
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/07/03/openssl-libressl-in-freebsd.html"/>
     <id>https://talks.discoverbsd.com/2016/07/03/openssl-libressl-in-freebsd.html</id>
     <published>2016-07-03T02:00:00+02:00</published>
-    <updated>2016-07-03T16:32:46+02:00</updated>
+    <updated>2016-08-14T11:28:00+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -38,7 +61,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/06/19/unifying-jail-and-package-management.html"/>
     <id>https://talks.discoverbsd.com/2016/06/19/unifying-jail-and-package-management.html</id>
     <published>2016-06-19T02:00:00+02:00</published>
-    <updated>2016-07-03T16:32:46+02:00</updated>
+    <updated>2016-08-14T11:28:00+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -60,7 +83,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/05/28/switching-to-bsd-from-linux.html"/>
     <id>https://talks.discoverbsd.com/2016/05/28/switching-to-bsd-from-linux.html</id>
     <published>2016-05-28T02:00:00+02:00</published>
-    <updated>2016-07-03T16:32:46+02:00</updated>
+    <updated>2016-08-14T11:28:00+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -96,7 +119,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/05/14/webapps-on-embedded-bsd.html"/>
     <id>https://talks.discoverbsd.com/2016/05/14/webapps-on-embedded-bsd.html</id>
     <published>2016-05-14T02:00:00+02:00</published>
-    <updated>2016-07-03T16:32:46+02:00</updated>
+    <updated>2016-08-14T11:28:00+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -110,7 +133,7 @@
     <link rel="alternate" href="https://talks.discoverbsd.com/2016/04/17/protecting-freebsd-with-secure-virtual-architecture.html"/>
     <id>https://talks.discoverbsd.com/2016/04/17/protecting-freebsd-with-secure-virtual-architecture.html</id>
     <published>2016-04-17T02:00:00+02:00</published>
-    <updated>2016-07-03T16:32:46+02:00</updated>
+    <updated>2016-08-14T11:28:00+02:00</updated>
     <author>
       <name>Jan Hovancik and contributors</name>
     </author>
@@ -126,26 +149,6 @@
 &lt;p&gt;John’s research interests focus on computer security and novel applications of compiler and operating system technology. John's primary research work is on the Secure Virtual Architecture (SVA). SVA enforces security policies on commodity operating system and application code via compiler instrumentation, thereby providing strong protection against sophisticated attacks. Using SVA, John built the first systems that provide strong automated memory safety protection and complete control-flow integrity enforcement to commodity operating system kernels such as Linux and FreeBSD. More recently, John has used SVA to create the Virtual Ghost system that protects application data and control-flow from a compromised operating system kernel.&lt;/p&gt;
 
 &lt;p&gt;Prior to joining the University of Rochester, John was a research programmer and graduate student at the University of Illinois. Before that, John worked at Argus Systems Group, Inc. John’s work at Argus Systems Group included enhancements to the AIX operating system kernel and writing utilities that utilized mandatory access controls to improve system security.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Redefining the Desktop Environment for Modern Hardware</title>
-    <link rel="alternate" href="https://talks.discoverbsd.com/2016/04/02/lumina-de.html"/>
-    <id>https://talks.discoverbsd.com/2016/04/02/lumina-de.html</id>
-    <published>2016-04-02T02:00:00+02:00</published>
-    <updated>2016-07-03T16:32:46+02:00</updated>
-    <author>
-      <name>Jan Hovancik and contributors</name>
-    </author>
-    <content type="html">&lt;h3 id="abstract-for-talk"&gt;Abstract for talk:&lt;/h3&gt;
-&lt;p&gt;As the types of personal computers continue to increase, the traditional “desktop computer” is gradually being shifted to a smaller subset of the total systems in use. This presents a problem for open source operating systems, as the available open source graphical environments are increasingly designed for systems with powerful hardware or traditional mouse/keyboard inputs.&lt;/p&gt;
-
-&lt;p&gt;The open-source Lumina desktop environment is designed to solve these problems by meeting its goals of being a highly flexible and scalable interface that runs with relatively little hardware requirements. The project also provides a simple framework for integrating OS-specific functionality directly into the interface for ease-of-use without causing conflict with the underlying system or affecting portability. This session will take a top-level view of the Lumina desktop project, breaking it down to its components, explaining the framework and methodology, and listing the work that is still yet to be completed to achieve its goals.å&lt;/p&gt;
-
-&lt;h4 id="about-the-speaker-ken-moore"&gt;About the Speaker: Ken Moore&lt;/h4&gt;
-&lt;p&gt;Ken Moore is one of the developers of PC-BSD and generally responsible for any graphical applications within PC-BSD.&lt;/p&gt;
-
-&lt;p&gt;Ken Moore is an avid Qt developer, and the creator of PC-BSD utilities such as the PCDM login manager, the Lumina desktop environment, EasyPBI, the device mounting utilities, and many more.&lt;/p&gt;
 </content>
   </entry>
 </feed>
