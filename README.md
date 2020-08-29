@@ -64,5 +64,5 @@ For setting **video** you have 2 choices: `youtube: FI_bZhV7wpI` for YouTube vid
 
 **Design and other PRs are welcome as well.**
 
-###Some things to keep in mind in articles:
+### Some things to keep in mind in articles:
 *  use only h3 and smaller (looks better in emails and so)
