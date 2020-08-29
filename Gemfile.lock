@@ -31,7 +31,7 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.0.0)
       addressable (~> 2)
-    ffi (1.9.10)
+    ffi (1.13.1)
     flay (2.8.0)
       erubis (~> 2.7.0)
       path_expander (~> 1.0)
