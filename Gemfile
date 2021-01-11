@@ -15,7 +15,7 @@ gem 'middleman-livereload', '~> 3.4', '>= 3.4.5'
 # A Middleman extension to integrate Disqus into your site,
 # supporting Disqus configuration variables and comment counts.
 gem "middleman-disqus", "~> 1.2"
-gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+gem 'redcarpet', '~> 3.5'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
